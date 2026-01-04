@@ -1,3 +1,7 @@
+# Ignore .tif files, as they are too large to upload
+*.tif
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

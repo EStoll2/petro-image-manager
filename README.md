@@ -13,7 +13,11 @@ convert-tif () {
     image_name="${i%%.tif}";
     vips dzsave "${1}" "./dzi-images/${image_name}";
 };
-convert-tif ./tif-images/your-image.tif
+
+for image in $(ls ./tif-images/*.tif)
+do
+    convert-tif "$image";
+done
 ```
 
 4. Find the output images in ./dzi-images/
