@@ -1,0 +1,28 @@
+{
+    "format": "v1",
+    "samples": [
+        {
+            "groups": ["SWM1"],
+            "title": "SWM1-104",
+            "description": "SWM1-104",
+            "tileSets": [
+                {
+                    "label": "SWM1-104_CPL_2.5x",
+                    "tiles": [
+                        {
+                            "uri": "https://raw.githubusercontent.com/EStoll2/petro-image-manager/refs/heads/main/dzi-images/SWM1-104_CPL_2.5x.dzi"
+                        }
+                    ]
+                },
+                {
+                    "label": "SWM1-104_PPL_2.5x",
+                    "tiles": [
+                        {
+                            "uri": "https://raw.githubusercontent.com/EStoll2/petro-image-manager/refs/heads/main/dzi-images/SWM1-104_PPL_2.5x.dzi"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
